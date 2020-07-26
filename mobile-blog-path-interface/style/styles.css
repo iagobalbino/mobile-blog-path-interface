@@ -11,6 +11,11 @@
     width: 100vw;
     height: 90vh;
   }
+
+  .maiusculo {
+    text-transform: uppercase;
+  }
+
   .main h1,
   p {
     color: #fff;
