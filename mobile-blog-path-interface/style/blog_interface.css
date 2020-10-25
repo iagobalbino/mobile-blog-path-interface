@@ -37,6 +37,8 @@ body {
 }
 
 .main-inner {
+  width: 207px;
+  height: 448px;
   padding: 200px 0 0 10px;
 }
 
@@ -85,4 +87,21 @@ body {
 .comentario {
   width: 14px;
   height: 14px;
+}
+
+/* Post */
+
+.post {
+  width: 207px;
+  height: 448px;
+  background: #f8f9fb;
+}
+
+.post p {
+  color: #000;
+}
+
+.capital {
+  font-size: 48px;
+  float: left;
 }
