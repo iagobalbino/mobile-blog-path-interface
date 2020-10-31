@@ -1,3 +1,5 @@
+/* Reset CSS */
+
 * {
   padding: 0;
   margin: 0;
@@ -13,6 +15,8 @@ body {
   background: #f2f211;
 }
 
+/* Container */
+
 .container {
   width: 100%;
   height: 100vh;
@@ -21,12 +25,14 @@ body {
   align-items: center;
 }
 
+/* Primeiro Card - Capa*/
 
-.main {
-  width: 207px;
-  height: 448px;
-  margin-left: 50px;
+.card {
+  height: 400px;
+  width: 250px;
+  margin-left: 40px;
   background: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .cover {
@@ -36,9 +42,9 @@ body {
   background-position: right;
 }
 
-.main-inner {
-  width: 207px;
-  height: 448px;
+.card-inner {
+  height: 400px;
+  width: 250px;
   padding: 200px 0 0 10px;
 }
 
@@ -46,30 +52,31 @@ body {
   text-transform: uppercase;
 }
 
-.main p {
+.card p {
   font-size: 10px;
 }
 
-.main h1, p {
+.card h1, p {
   color: #fff;
   line-height: 1.5;
 }
 
-.main h1 {
+.card h1 {
   font-size: 18px;
 }
+
+/* Botão */
 
 .botao {
   font-size: 10px;
   font-weight: bold;
   padding: 5px 10px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .nav {
   font-size: 14px;
   font-weight: bold;
-  width: 207px;
   height: 40px;
   background: #fff;
 }
@@ -89,19 +96,28 @@ body {
   height: 14px;
 }
 
-/* Post */
+/* 2° Card - Post */
 
 .post {
-  width: 207px;
-  height: 448px;
+  /* width: 207px; */
+  height: 400px;
   background: #f8f9fb;
+  padding: 20px;
 }
 
 .post p {
   color: #000;
+  font-size: 12px;
+  line-height: 1.7;
 }
 
-.capital {
-  font-size: 48px;
+.post p:first-child:first-letter {
+  font-size: 52px;
+  padding-right: 8px;
+
   float: left;
+  line-height: 0.7;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+/* 3° Card - Comentários */
