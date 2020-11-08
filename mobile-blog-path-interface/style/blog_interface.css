@@ -11,19 +11,49 @@
   box-sizing: border-box;
   list-style:none;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
   font-family: sans-serif;
-  /* background: #f2f2f2; */
-  background: #f2f211;
+  background: #f2f2f2;
+}
+
+/* Info */
+
+.info {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.info h1 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.info span {
+  font-size: 12px;
+}
+
+.info a {
+  font-size: 12px;
+  font-weight: bold;
+  color: #000;
+}
+
+.info a:hover {
+  text-decoration: underline;
+}
+
+.fa-heart {
+  color: #e74c3c;
 }
 
 /* Container */
 
 .container {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,6 +67,10 @@ body {
   margin-left: 40px;
   background: #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
 }
 
 .cover {
@@ -55,7 +89,6 @@ body {
 .maiusculo {
   text-transform: uppercase;
   color: #fff;
-
 }
 
 .card p {
@@ -77,6 +110,7 @@ body {
   font-weight: bold;
   padding: 5px 10px;
   margin-top: 10px;
+  color: #000;
 }
 
 .nav {
@@ -84,6 +118,7 @@ body {
   font-weight: bold;
   height: 40px;
   background: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .nav ul {
@@ -145,15 +180,30 @@ body {
   width: 40px;
   position: absolute;
   margin-top: 5px;
+  border-radius: 50%;
 }
 
 .comment {
-  height: 50px;
+  height: 80px;
   width: 150px;
   position: relative;
-  margin: 0 0 0 50px;
+  margin: 0 0 10px 50px;
 }
 
 .comment p {
   font-size: 10px;
+}
+
+.user-name {
+  font-weight: bold;
+  display: inline-block;
+}
+
+.hour {
+  opacity: 50%;
+  display: inline-block;
+}
+
+.card3 nav ul {
+  display: none;
 }
